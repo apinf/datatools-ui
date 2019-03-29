@@ -105,121 +105,121 @@ components:
       title: FI -OSM Extract
     otpServers:
       $index:
-        admin: Admin access only?
-        delete: Remove
-        internalUrl: Internal URLs
-        name: Name
-        namePlaceholder: Production
-        publicUrl: Public URL
-        s3Bucket: S3 bucket name
-      new: Add server
-      serverPlaceholder: Server name
-      title: Servers
+        admin: FI - Admin access only?
+        delete: Remove - Poista
+        internalUrl: Internal URLs - Sisäinen URL
+        name: Name - Nimi
+        namePlaceholder: Production - Tuotanto
+        publicUrl: Public URL - Julkinen URL
+        s3Bucket: S3 bucket name - S3 sanko
+      new: Add server - Lisää palvelin
+      serverPlaceholder: Server name - Palvelimen nimi
+      title: Servers - Palvelimet
     routerConfig:
-      brandingUrlRoot: Branding URL Root
-      carDropoffTime: Car Dropoff Time
-      numItineraries: '# of itineraries'
-      requestLogFile: Request log file
-      stairsReluctance: Stairs Reluctance
-      title: Router Config
+      brandingUrlRoot: Branding URL Root - Brändäyksen URL juuri
+      carDropoffTime: Car Dropoff Time - Auton tiputusaika
+      numItineraries: '# of itineraries' - iteneraattien määrä
+      requestLogFile: Request log file - Pyydä logitiedostoa
+      stairsReluctance: Stairs Reluctance - Portaitten vastustus
+      title: Router Config - Reitittimen konfigurointi
       updaters:
         $index:
-          defaultAgencyId: Default agency ID
-          frequencySec: Frequency (in seconds)
-          sourceType: Source type
-          type: Type
-          url: URL
-        new: Add updater
-        title: Real-time updaters
-        placeholder: Updater name
-      walkSpeed: Walk Speed
-    save: Save
-    title: Deployment
+          defaultAgencyId: Default agency ID - Oletus Agency ID
+          frequencySec: Frequency (in seconds) - Taajuus (sekunneissa)
+          sourceType: Source type - Lähdetyyppi
+          type: Type - Tyyppi
+          url: URL - URL
+        new: Add updater - Lisää päivitin
+        title: Real-time updaters - Reaaliaikapäivitykset
+        placeholder: Updater name - Päivittelijän nimi
+      walkSpeed: Walk Speed - Kävelynopeus
+    save: Save - Tallenna
+    title: Deployment - Duployment - 
   DeploymentVersionsTable:
-    dateRetrieved: Date Retrieved
-    errorCount: Error Count
-    expires: Expires
-    loadStatus: Loaded Successfully
-    name: Name
-    routeCount: Route Count
-    stopTimesCount: Stop time count
-    tripCount: Trip Count
-    validFrom: Valid from
-    version: Version
+    dateRetrieved: Date Retrieved - Tieto haettu
+    errorCount: Error Count - Virhelaskuri
+    expires: Expires - Vanhenee
+    loadStatus: Loaded Successfully - Ladattu onnistuneesti
+    name: Name - Nimi
+    routeCount: Route Count - Reittien määrä
+    stopTimesCount: Stop time count - Pysäytä aika määrä
+    tripCount: Trip Count - Kaatumisten määrä
+    validFrom: Valid from - Alkaen ajasta
+    version: Version - Versio
   DeploymentViewer:
-    addFeedSource: Add Feed Source
-    allFeedsAdded: All feeds added
-    deploy: Deploy
-    download: Download
-    noServers: No servers defined
-    search: Search by name
+    addFeedSource: Add Feed Source - Kaikki syötelähteet
+    allFeedsAdded: All feeds added - Kaikki lisätyt syötteet
+    deploy: Deploy - pulauta
+    download: Download - Lataa
+    noServers: No servers defined - Palvelimia ei määritelty
+    search: Search by name - Etsi nimellä
     table:
-      dateRetrieved: Date Retrieved
-      errorCount: Error Count
-      expires: Expires
-      loadStatus: Loaded Successfully
-      name: Name
-      routeCount: Route Count
-      stopTimesCount: Stop time count
-      tripCount: Trip Count
-      validFrom: Valid from
-      version: Version
-    to: to
-    versions: Feed Versions
+      dateRetrieved: Date Retrieved - Tietoa haettu
+      errorCount: Error Count - Virhelaskuri
+      expires: Expires - Raukeaa
+      loadStatus: Loaded Successfully - Ladattu onnistuneesti
+      name: Name - Nimi
+      routeCount: Route Count - Reittimäärä
+      stopTimesCount: Stop time count - Pysäkkiaikamäärätai jotain
+      tripCount: Trip Count - Trip laskuri
+      validFrom: Valid from - Alkaen ajasta
+      version: Version - Versio
+    to: to - to
+    versions: Feed Versions - Syöteversiot
   DeploymentsList:
-    delete: Remove deployment
-    new: New Deployment
-    search: Search for deployments
+    delete: Remove deployment - Poista palvelin
+    new: New Deployment - Uusi palvelin
+    search: Search for deployments - Etsi pulautuksia
     table:
-      creationDate: Created
-      lastDeployed: Last deployed
-      deployedTo: Deployed to
-      feedCount: '# of feeds'
-      testDeployment: Test?
-      name: Name
-    title: Deployments
+      creationDate: Created - Luotu
+      lastDeployed: Last deployed - Viimeksi pulautettu
+      deployedTo: Deployed to - Pulautettu jonnee
+      feedCount: '# of feeds' - Syötteiden määrä
+      testDeployment: Test? - Testaa?
+      name: Name - Nimi
+    title: Deployments - Pulautukset
   DeploymentsPanel:
-    delete: Remove deployment
-    new: New Deployment
-    search: Search for deployments
+    delete: Remove deployment - Poista pulautus
+    new: New Deployment - Uusi pulautus
+    search: Search for deployments - Etsi pulautuksia
     table:
-      creationDate: Created
-      lastDeployed: Last deployed
-      deployedTo: Deployed to
-      feedCount: '# of feeds'
-      testDeployment: Test?
-      name: Name
-    title: Deployments
+      creationDate: Created - Luotu
+      lastDeployed: Last deployed - Viimeksi pulautettu
+      deployedTo: Deployed to - Pulautettu jonnee
+      feedCount: '# of feeds' - Syötteiden määrä
+      testDeployment: Test? - Testaa?
+      name: Name - Nimi
+    title: Deployments - Pulautukset
   EditorFeedSourcePanel:
-    active: Active
-    confirmDelete: This will permanently delete this snapshot. Any data saved here cannot be recovered. Are you sure you want to continue?
-    confirmLoad: 'This will override all active GTFS Editor data for this Feed Source with the data from this version. If there is unsaved work in the Editor you want to keep, you must snapshot the current Editor data first. Are you sure you want to continue?'
-    created: created
-    createFromScratch: Create GTFS from Scratch
-    date: Date
-    delete: Delete
-    download: Download
-    feed: Feed
+    active: Active - Aktiivinen
+    confirmDelete: Nyt deletoidaan ja et saa takas
+    confirmLoad: Nyt ladataan, tallentamattomat mänöö hukkaan
+    created: created - Luotu
+    createFromScratch: Create GTFS from Scratch - Luo nollista
+    date: Date - Päiväys
+    delete: Delete - Poista
+    download: Download - Lataa
+    feed: Feed - Syöte
     help:
       body:
-        - Snapshots are save points you can always revert back to when editing a GTFS feed.
-        - 'A snapshot might represent a work-in-progress, future planning scenario or even different service patterns (e.g., summer schedule markup).'
-      title: What are snapshots?
-    load: Load for Editing
-    loadLatest: Load latest for editing
-    name: Name
-    noSnapshotsExist: No snapshots currently exist for this feed. Snapshots can be created within the Editor. Click "Edit Feed" to enter editing mode.
-    noVersions: (No Versions)
-    noVersionsExist: No versions exist for this feed source.
-    of: of
-    publish: Publish
-    restore: Restore
-    snapshot: snapshot
-    title: Snapshots
-    version: Version
+        - Selittään snapshotin.
+        - 'snapsnapsnap'
+      title: Mitä ne snapshotit ny on?
+    load: Lataa editoitavaksi
+    loadLatest: Lataa viimeisin muutettavaksi
+    name: Name - Nimi
+    noSnapshotsExist: Ei ole snapshottejaa
+    noVersions: (No Versions) - Ei ole versioita
+    noVersionsExist: Ei ole versioita tälle syötteelle.
+    of: of - FI
+    publish: Publish - Julkaise
+    restore: Restore - Palauta
+    snapshot: snapshot - snäppi
+    title: Snapshots - snäpit
+    version: Version - Version
   FeedInfoPanel:
     uploadShapefile:
-      body: 'Select a zipped shapefile to display on map. Note: this is only for use as a visual aid.'
+      body: 'Lataa zipattu shape tiedosto'
       error: Uploaded file must be a valid zip file (.zip).
       title: Upload route shapefile
   FeedSourceAttributes:
