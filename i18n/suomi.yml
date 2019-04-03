@@ -174,7 +174,7 @@ components:
       creationDate: Created - Luotu
       lastDeployed: Last deployed - Viimeksi pulautettu
       deployedTo: Deployed to - Pulautettu jonnee
-      feedCount: '# of feeds' - Syötteiden määrä
+      feedCount: 'Syötteiden määrä' 
       testDeployment: Test? - Testaa?
       name: Name - Nimi
     title: Deployments - Pulautukset
@@ -186,7 +186,7 @@ components:
       creationDate: Created - Luotu
       lastDeployed: Last deployed - Viimeksi pulautettu
       deployedTo: Deployed to - Pulautettu jonnee
-      feedCount: '# of feeds' - Syötteiden määrä
+      feedCount: 'Syötteiden määrä' 
       testDeployment: Test? - Testaa?
       name: Name - Nimi
     title: Deployments - Pulautukset
@@ -202,7 +202,7 @@ components:
     feed: Feed - Syöte
     help:
       body:
-        - Selittään snapshotin.
+        - Selittään snapshotin
         - 'snapsnapsnap'
       title: Mitä ne snapshotit ny on?
     load: Lataa editoitavaksi
