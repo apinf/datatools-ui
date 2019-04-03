@@ -118,7 +118,7 @@ components:
     routerConfig:
       brandingUrlRoot: Branding URL Root - Brändäyksen URL juuri
       carDropoffTime: Car Dropoff Time - Auton tiputusaika
-      numItineraries: '# of itineraries' - iteneraattien määrä
+      numItineraries: 'iteneraattien määrä' 
       requestLogFile: Request log file - Pyydä logitiedostoa
       stairsReluctance: Stairs Reluctance - Portaitten vastustus
       title: Router Config - Reitittimen konfigurointi
