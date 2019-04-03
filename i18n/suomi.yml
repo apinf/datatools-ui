@@ -220,176 +220,176 @@ components:
   FeedInfoPanel:
     uploadShapefile:
       body: 'Lataa zipattu shape tiedosto'
-      error: Uploaded file must be a valid zip file (.zip).
-      title: Upload route shapefile
+      error: fi-Uploaded file must be a valid zip file (.zip).
+      title: Lähetä palvelimelle shapetiedosto
   FeedSourceAttributes:
-    lastUpdated: Updated
+    lastUpdated: Updated- Päivitetty
   FeedSourcePanel:
-    search: Search feeds
+    search: Search feeds - Etsi syötteitä
   FeedSourceTable:
-    createFirst: Create first feed source!
+    createFirst: Create first feed source! - Luo ensimmäinen syöte
   FeedSourceViewer:
-    deploy: Deploy
-    edit: Edit GTFS
-    gtfs: GTFS
-    notesTitle: Notes
-    private: Private view
+    deploy: Deploy - Pulauta
+    edit: Edit GTFS - Editoi GTFS:ää
+    gtfs: GTFS - GTFS
+    notesTitle: Notes - Muistiinpanot
+     private: Private view - Yksityisnäkymä
     properties:
-      deployable: Deployable?
-      name: Name
-      noneSelected: (None Selected)
-      property: Property
-      public: Public?
+      deployable: Deployable? - Pulautettava?
+      name: Name - Nimi
+      noneSelected: (None Selected) - (Mitään ei valittu)
+      property: Property - Kiinteistö
+      public: Public? - Julkinen
       retrievalMethod:
-        fetchedAutomatically: Fetched Automatically
-        manuallyUploaded: Manually Uploaded
-        producedInHouse: Produced In-house
-        title: Retrieval Method
-      snapshot: Editor Snapshot
-      title: Settings
-      value: Value
-    snapshotsTitle: Snapshots
-    update: Update
-    upload: Upload
-    versions: Versions
-    viewPublic: View public page
+        fetchedAutomatically: Fetched Automatically - Haettu automaattisesti
+        manuallyUploaded: Manually Uploaded - Käsin upattu
+        producedInHouse: Produced In-house - Tuotettu talon sisällä
+        title: Retrieval Method - Hakumetodi
+      snapshot: Editor Snapshot - Editorin snäppi
+      title: Settings - Asetukset
+      value: Value - Arvo
+    snapshotsTitle: Snapshots - Snäpärit
+    update: Update - Päivitä
+    upload: Upload - Uppaa
+    versions: Versions - Versiot
+    viewPublic: View public page - Vilkase julkista sivua
   FeedVersionNavigator:
-    confirmDelete: Are you sure you want to delete this version? This cannot be undone.
-    confirmLoad: 'This will override all active GTFS Editor data for this Feed Source with the data from this version. If there is unsaved work in the Editor you want to keep, you must snapshot the current Editor data first. Are you sure you want to continue?'
-    delete: Delete
-    download: Download
-    feed: Feed
-    load: Load for Editing
-    next: Next
-    of: of
-    previous: Previous
-    version: Version
+    confirmDelete: FI -Are you sure you want to delete this version? This cannot be undone.
+    confirmLoad: 'FI-This will override all active GTFS Editor data for this Feed Source with the data from this version. If there is unsaved work in the Editor you want to keep, you must snapshot the current Editor data first. Are you sure you want to continue?'
+    delete: Delete - Poista
+    download: Download - Lataa
+    feed: Feed - Syöte
+    load: Load for Editing - Lataa editoitavaksi
+    next: Next - Seuraava
+    of: of - of
+    previous: Previous - Edellinen
+    version: Version - Versiot
   FeedVersionTabs:
-    agencyCount: Agency Count
-    routeCount: Route Count
-    stopTimesCount: Stop time Count
-    tripCount: Trip Count
-    validDates: Valid Dates
+    agencyCount: Agency Count - Agenttilaskuri
+    routeCount: Route Count - Reittilaskuri
+    stopTimesCount: Stop time Count - Pysäkkiaikalaskuri
+    tripCount: Trip Count - Trippailulaskuri
+    validDates: Valid Dates - Varmat päivät
   FeedVersionViewer:
-    confirmDelete: Are you sure you want to delete this version? This cannot be undone.
-    confirmLoad: 'This will override all active GTFS Editor data for this Feed Source with the data from this version. If there is unsaved work in the Editor you want to keep, you must snapshot the current Editor data first. Are you sure you want to continue?'
-    delete: Delete
-    download: Download
-    feed: Feed
-    load: Load
-    noVersionsExist: No versions exist for this feed source.
-    status: Status
-    timestamp: File Timestamp
-    version: version
+    confirmDelete: FI - Are you sure you want to delete this version? This cannot be undone.
+    confirmLoad: 'FI-This will override all active GTFS Editor data for this Feed Source with the data from this version. If there is unsaved work in the Editor you want to keep, you must snapshot the current Editor data first. Are you sure you want to continue?'
+    delete: Delete - Poista
+    download: Download - Lataa
+    feed: Feed - Syöte
+    load: Load - Lataa
+    noVersionsExist: FI- No versions exist for this feed source.
+    status: Status - Tila
+    timestamp: File Timestamp - Tiedoston aikaaleima
+    version: version - versio
   GeneralSettings:
-    confirmDelete: Are you sure you want to delete this project? This action cannot be undone and all feed sources and their versions will be permanently deleted.
-    deleteProject: Delete Project?
+    confirmDelete: FI-Are you sure you want to delete this project? This action cannot be undone and all feed sources and their versions will be permanently deleted.
+    deleteProject: Delete Project? - Poista projekti?
     deployment:
       buildConfig:
         elevationBucket:
-          accessKey: Access Key
-          bucketName: S3 Bucket Name
-          secretKey: Secret Key
-        fares: Fares
-        fetchElevationUS: Fetch Elevation
-        stationTransfers: Sta. Transfers
-        subwayAccessTime: Subway Access Time
-        title: Build Config
+          accessKey: Access Key - Avain
+          bucketName: S3 Bucket Name - S3 sangonnimi
+          secretKey: Secret Key - Salainen avain
+        fares: Fares - Hinnat
+        fetchElevationUS: Fetch Elevation - Hae ylennys
+        stationTransfers: Sta. Transfers - Asemaransut
+        subwayAccessTime: Subway Access Time - Supparinhakuaika
+        title: Build Config - Rakenna conffis
       osm:
-        bounds: Custom Extract Bounds
-        custom: Use Custom Extract Bounds
-        gtfs: Use GTFS-Derived Extract Bounds
-        title: OSM Extract
+        bounds: FI-Custom Extract Bounds 
+        custom: FI-Use Custom Extract Bounds
+        gtfs: FI-Use GTFS-Derived Extract Bounds
+        title: FI-OSM Extract
       otpServers:
         $index:
-          admin: Admin access only?
-          delete: Remove
-          internalUrl: Internal URLs
-          name: Name
-          namePlaceholder: Production
-          publicUrl: Public URL
-          s3Bucket: S3 bucket name
-        new: Add server
-        serverPlaceholder: Server name
-        title: Servers
+          admin: Fi-Admin access only?
+          delete: Remove - Poista
+          internalUrl: Internal URLs - Sisäiset URL
+          name: Name - Nimi
+          namePlaceholder: Production - Tuotanto
+          publicUrl: Public URL - Julkinen URL
+          s3Bucket: S3 bucket name - S3 sankonnimi
+        new: Add server - Lisää palvelin
+        serverPlaceholder: Server name - Palvelimen nimi
+        title: Servers - Palvelimet
       routerConfig:
-        brandingUrlRoot: Branding URL Root
-        carDropoffTime: Car Dropoff Time
-        numItineraries: '# of itineraries'
-        requestLogFile: Request log file
-        stairsReluctance: Stairs Reluctance
-        title: Router Config
+        brandingUrlRoot: Branding URL Root - Brändäyksen juuri URL
+        carDropoffTime: Car Dropoff Time - Auton tiputusaika
+        numItineraries: 'FI-# of itineraries' 
+        requestLogFile: Request log file - Pyydä logitiedostoa
+        stairsReluctance: Stairs Reluctance - Portaitten vastustus
+        title: Router Config - Reitittimen konfiguraatio
         updaters:
           $index:
-            defaultAgencyId: Default agency ID
-            frequencySec: Frequency (in seconds)
-            sourceType: Source type
-            type: Type
-            url: URL
-          new: Add updater
-          title: Real-time updaters
-          placeholder: Updater name
-        walkSpeed: Walk Speed
-      title: Deployment
+            defaultAgencyId: Default agency ID - Oletus agentti ID
+            frequencySec: Frequency (in seconds) - Taajuus (sekunneissa)
+            sourceType: Source type - Lähteen tyyppi
+            type: Type - Tyyppi
+            url: URL - URL
+          new: Add updater - Lisää päivittäjä
+          title: Real-time updaters - Reaaliaiakapäivittelijät
+          placeholder: Updater name - Päivittäjän nimi
+        walkSpeed: Walk Speed - Kävelynopeus
+      title: Deployment - Pulautus
     general:
       location:
-        boundingBox: 'Bounding box (W,S,E,N)'
-        defaultLanguage: Default language
-        defaultLocation: 'Default location (lat, lng)'
-        defaultTimeZone: Default time zone
-        title: Location
-      name: Project name
-      title: General
+        boundingBox: 'Loota (Länsi,etelä,itä,pohjoinen)'
+        defaultLanguage: Default language - Oletuskieli
+        defaultLocation: 'Oletuspaikka (lat, lng)'
+        defaultTimeZone: Default time zone - Oletusaikavyöhyke
+        title: Location - Paikka
+      name: Project name - Projektin nimi
+      title: General - Yleinen
       updates:
-        autoFetchFeeds: Auto fetch feed sources?
-        title: Updates
-    rename: Rename
-    save: Save
-    title: Settings
+        autoFetchFeeds: Fi-Auto fetch feed sources?
+        title: Updates - Päivitykset
+    rename: Rename - Nimeä uudelleen
+    save: Save - Tallenne
+    title: Settings - Asetukset
   GtfsValidationExplorer:
-    accessibilityValidation: Accessibility Explorer
+    accessibilityValidation: Accessibility Explorer - Esteettömyystutkija
     table:
-      count: Count
-      file: File
-      issue: Issue
-      priority: Priority
-    timeValidation: Time-based Validation
-    title: Validation Explorer
-    validationIssues: Validation Issues
+      count: Count - Laskuri
+      file: File - Tiedosto
+      issue: Issue - Ongelma
+      priority: Priority - Tärkeysjärjestys
+    timeValidation: Time-based Validation - Aikapohjainen validointi
+    title: Validation Explorer - Tutkija
+    validationIssues: Validation Issues - Validaatio-ongelmat
   GtfsValidationViewer:
-    explorer: Validation Explorer
+    explorer: Validation Explorer - Validaatiotutkija
     issues:
-      other: Other issues
-      routes: Route issues
-      shapes: Shape issues
-      stop_times: Stop times issues
-      stops: Stop issues
-      trips: Trip issues
-    noResults: No validation results to show.
-    title: Validation Results
+      other: Other issues - Muut ongelmat
+      routes: Route issues - Reittiongelma
+      shapes: Shape issues - Shapeongelma
+      stop_times: Stop times issues - Pysäkkiaikaongelma
+      stops: Stop issues - Pysäkkiongelma
+      trips: Trip issues - Rippiongelma
+    noResults: Fi-No validation results to show.
+    title: Validation Results - Validaatiotulokset
   LanguageSelect:
-    placeholder: Select language...
+    placeholder: Select language... - Valitse kieli
   Login:
-    title: Log in
+    title: Log in - Kirjaudu sisään
   NotesViewer:
-    all: All Comments
-    feedSource: Feed Source
-    feedVersion: Version
-    new: Post
-    none: No comments.
-    postComment: Post a New Comment
-    refresh: Refresh
-    title: Comments
+    all: All Comments - Kaikki kommentit
+    feedSource: Feed Source - Syötteen lähde 
+    feedVersion: Version - Versio
+    new: Post - Posti
+    none: No comments. - Ei kommentteja
+    postComment: Post a New Comment - Lisää uusi kommentti
+    refresh: Refresh - Päivitä
+    title: Comments - Kommentit
   OrganizationList:
-    new: Create org
-    search: Search orgs
+    new: Create org - Luo organisaatio
+    search: Search orgs - Etsi organisaatioita
   OrganizationSettings:
-    extensions: Extensions
+    extensions: Extensions - Laajennukset
     logoUrl:
-      label: Logo URL
+      label: Logo URL - Logo URL
       placeholder: 'http://example.com/logo_30x30.png'
     name:
-      label: Name
+      label: Name - Nimi
       placeholder: Big City Transit
     orgDetails: Organization details
     projects: Projects
@@ -520,16 +520,16 @@ components:
     mergeFeeds: Merge all
     settings: Settings
   ProjectsList:
-    createFirst: Create my first project
+    createFirst: Luo ensimmäinen projektini
     help:
       content: 'A project is used to group GTFS feeds. For example, the feeds in a project may be in the same region or they may collectively define a planning scenario.'
       title: What's a project?
-    new: New Project
+    new: New Project - Uusi projekti
     noProjects: You currently do not have any projects.
     search: Search by project name
     table:
-      name: Project Name
-    title: Projects
+      name: Project Name - Projektin nimi
+    title: Projects - Projektit
   PublicFeedsTable:
     country: Country
     lastUpdated: Last Updated
