@@ -370,7 +370,7 @@ components:
   LanguageSelect:
     placeholder: Select language... - Valitse kieli
   Login:
-    title: Log in - Kirjaudu sisään
+    title: Log in - Kirjaudu
   NotesViewer:
     all: All Comments - Kaikki kommentit
     feedSource: Feed Source - Syötteen lähde 
@@ -390,295 +390,295 @@ components:
       placeholder: 'http://example.com/logo_30x30.png'
     name:
       label: Name - Nimi
-      placeholder: Big City Transit
-    orgDetails: Organization details
-    projects: Projects
-    subDetails: Subscription details
-    subscriptionBeginDate: Subscription begins
-    subscriptionEndDate: Subscription ends
+      placeholder: Big City Transit - Ison kaupungin transitit
+    orgDetails: Organization details - Organisaation yksityiskohdat
+    projects: Projects - Projektit
+    subDetails: Subscription details - Tilauksen yksityiskohdat
+    subscriptionBeginDate: Subscription begins - Tilaus alkaa
+    subscriptionEndDate: Subscription ends - Tilaus päättyy
     usageTier:
-      high: High
-      low: Low
-      medium: Medium
+      high: High - Korkea
+      low: Low - Matala
+      medium: Medium - Keski
   ProjectAccessSettings:
-    admin: Admin
-    cannotFetchFeeds: Cannot fetch feeds
-    custom: Custom
-    feeds: Feed Sources
-    noAccess: No Access
-    permissions: Permissions
-    title: Project Settings for
+    admin: Admin - Ylläpitäjä
+    cannotFetchFeeds: Cannot fetch feeds - Syötteen haku epäonnistui
+    custom: Custom - Custom
+    feeds: Feed Sources - Syötelähteet
+    noAccess: No Access - Ei pääsyä
+    permissions: Permissions - Käyttöoikeudet
+    title: Project Settings for - Projektiasetukset
   ProjectSettings:
     deployment:
       buildConfig:
         elevationBucket:
-          accessKey: Access Key
-          bucketName: S3 Bucket Name
-          secretKey: Secret Key
-        fares: Fares
-        fetchElevationUS: Fetch Elevation
-        stationTransfers: Sta. Transfers
-        subwayAccessTime: Subway Access Time
-        title: Build Config
+          accessKey: Access Key - Avain
+          bucketName: S3 Bucket Name - S3 sanko
+          secretKey: Secret Key - Salainen avain
+        fares: Fares - Hinnat
+        fetchElevationUS: Fetch Elevation - Hae korotus
+        stationTransfers: Sta. Transfers - Asematransferit
+        subwayAccessTime: Subway Access Time - Subbarin hakuaika
+        title: Build Config - Rakennusconffis
       osm:
-        bounds: Custom Extract Bounds
-        custom: Use Custom Extract Bounds
-        gtfs: Use GTFS-Derived Extract Bounds
-        title: OSM Extract
+        bounds: Custom Extract Bounds - Tullin tislerajat
+        custom: Use Custom Extract Bounds - Käytä jotain
+        gtfs: FI-Use GTFS-Derived Extract Bounds 
+        title: OSM Extract - OSM tisle
       otpServers:
         $index:
-          admin: Admin access only?
-          delete: Remove
-          internalUrl: Internal URLs
-          name: Name
-          namePlaceholder: Production
-          publicUrl: Public URL
-          s3Bucket: S3 bucket name
-        new: Add server
-        serverPlaceholder: Server name
-        title: Servers
+          admin: Admin access only? - Vain ylläpitäjäpääsy?
+          delete: Remove - Poista
+          internalUrl: Internal URLs - Sisäinen URL
+          name: Name - Nimi
+          namePlaceholder: Production - Tuotanto
+          publicUrl: Public URL - Julkinen URL
+          s3Bucket: S3 bucket name - S3 sangon nimi
+        new: Add server - Lisää palvelin
+        serverPlaceholder: Server name - Palvelimen nimi
+        title: Servers - Palvelimet
       routerConfig:
-        brandingUrlRoot: Branding URL Root
-        carDropoffTime: Car Dropoff Time
-        numItineraries: '# of itineraries'
-        requestLogFile: Request log file
-        stairsReluctance: Stairs Reluctance
-        title: Router Config
+        brandingUrlRoot: Branding URL Root - Brändäyksen juuri URL
+        carDropoffTime: Car Dropoff Time - Auton tiputusaika
+        numItineraries: 'itenariaattien määrä' 
+        requestLogFile: Request log file - Pyydä logitiedostoa
+        stairsReluctance: Stairs Reluctance - Portaiden vastahakoisuus
+        title: Router Config - Reitittimen konfiguraatio
         updaters:
           $index:
-            defaultAgencyId: Default agency ID
-            frequencySec: Frequency (in seconds)
-            sourceType: Source type
-            type: Type
-            url: URL
-          new: Add updater
-          title: Real-time updaters
-          placeholder: Updater name
-        walkSpeed: Walk Speed
-      title: Deployment
+            defaultAgencyId: Default agency ID - Perusagentti ID
+            frequencySec: Frequency (in seconds) - Taajuus (sekunneissa)
+            sourceType: Source type - Syötteen tyyppi
+            type: Type - Tyyppi
+            url: URL - URL
+          new: Add updater - Lisää päivitin
+          title: Real-time updaters - Reaaliaikapäivittimet
+          placeholder: Updater name - Päivityksen nimi
+        walkSpeed: Walk Speed - Kävelynopeus
+      title: Deployment - Pulautus
     project:
-      cannotFetchFeeds: Cannot fetch feeds
-      feeds: Feeds
-      permissions: Permissions
-    rename: Rename
-    save: Save
-    title: Settings
+      cannotFetchFeeds: Cannot fetch feeds - Syötteen haku epäonnistui
+      feeds: Feeds - Syötteet
+      permissions: Permissions - Luvat
+    rename: Rename - Nimeä uudelleen
+    save: Save - Tallenna
+    title: Settings - Asetukset
   ProjectSettingsForm:
-    cancel: Cancel
-    confirmDelete: Are you sure you want to delete this project? This action cannot be undone and all feed sources and their versions will be permanently deleted.
-    deleteProject: Delete Project?
+    cancel: Cancel - Peru
+    confirmDelete: Fi - Are you sure you want to delete this project? This action cannot be undone and all feed sources and their versions will be permanently deleted.
+    deleteProject: Delete Project? - Poista projekti
     fields:
       location:
-        boundingBox: 'Bounding box (W,S,E,N)'
-        defaultLanguage: Default language
-        defaultLocation: 'Default location (lat, lng)'
-        defaultTimeZone: Default time zone
-        title: Location
-      name: Project name
-      title: General
+        boundingBox: 'Loota (Länsi,etelä,itä,pohjoinen)'
+        defaultLanguage: Default language - Oletuskieli
+        defaultLocation: 'Oletuslokaatio (lat, lng)'
+        defaultTimeZone: Default time zone - Oletusaikavyöhyke
+        title: Location - Paikka
+      name: Project name - Projektin nimi
+      title: General - Yleinen
       updates:
-        autoFetchFeeds: Auto fetch feed sources?
-        title: Updates
-    save: Save
-    title: Settings
+        autoFetchFeeds: Auto fetch feed sources? - Hea syötteet automaattisesti
+        title: Updates -  Päivitä
+    save: Save - Tallenna
+    title: Settings - Asetukset
   ProjectViewer:
-    deployments: Deployments
+    deployments: Deployments - Pulautukset
     feeds:
-      createFirst: Create first feed source!
-      new: New Feed Source
-      search: Search by name
+      createFirst: Create first feed source! - Luo ensimmäinen syöte
+      new: New Feed Source - Uusi syöte
+      search: Search by name - Hae nimellä
       table:
-        deployable: Deployable?
-        errorCount: Errors
-        lastUpdated: Updated
-        name: Name
-        public: Public?
-        retrievalMethod: Retrieval Method
-        validRange: Valid Range
-      title: Feed Sources
-      update: Fetch all
-    makePublic: Publish public feeds
-    mergeFeeds: Merge all
-    settings: Settings
+        deployable: Deployable? - Pulautettava?
+        errorCount: Errors - Virheet
+        lastUpdated: Updated - Päivitetty
+        name: Name - Nimi
+        public: Public? - Julkinen
+        retrievalMethod: Retrieval Method - Hakumetodi
+        validRange: Valid Range - Pätevä vaihteluväli
+      title: Feed Sources - Syötelähteet
+      update: Fetch all - Hae kaikki
+    makePublic: Publish public feeds - Julkaise julkinen syöte
+    mergeFeeds: Merge all - Sulauta kaikki
+    settings: Settings - Asetukset
   ProjectViewerHeader:
-    deployments: Deployments
+    deployments: Deployments - Pulautukset
     feeds:
-      createFirst: Create first feed source!
-      new: New Feed Source
-      search: Search by name
+      createFirst: Create first feed source! - Luo ensimmäinen syöte
+      new: New Feed Source - Uusi syöte
+      search: Search by name - Hae nimellä
       table:
-        deployable: Deployable?
-        errorCount: Errors
-        lastUpdated: Updated
-        name: Name
-        public: Public?
-        retrievalMethod: Retrieval Method
-        validRange: Valid Range
-      title: Feed Sources
-      update: Fetch all
-    makePublic: Publish public feeds
-    mergeFeeds: Merge all
-    settings: Settings
+        deployable: Deployable? - Pulautettava
+        errorCount: Errors - Virheet
+        lastUpdated: Updated - Viimeksi päivitetty
+        name: Name - Nimi
+        public: Public? - Julkinen?
+        retrievalMethod: Retrieval Method - Hakumetodi
+        validRange: Valid Range - - Pätevä vaihteluväli
+      title: Feed Sources - Syötelähteet
+      update: Fetch all - Hae kaikki
+    makePublic: Publish public feeds - Julkaise julkiset syötteet
+    mergeFeeds: Merge all - Sulauta kaikki
+    settings: Settings - Asetukset
   ProjectsList:
     createFirst: Luo ensimmäinen projektini
     help:
-      content: 'A project is used to group GTFS feeds. For example, the feeds in a project may be in the same region or they may collectively define a planning scenario.'
-      title: What's a project?
+      content: 'FI-A project is used to group GTFS feeds. For example, the feeds in a project may be in the same region or they may collectively define a planning scenario.'
+      title: Mikä on projekti
     new: New Project - Uusi projekti
-    noProjects: You currently do not have any projects.
-    search: Search by project name
+    noProjects: You currently do not have any projects. - Sinulla ei ole projekteja
+    search: Search by project name - Hae projektia nimellä
     table:
       name: Project Name - Projektin nimi
     title: Projects - Projektit
   PublicFeedsTable:
-    country: Country
-    lastUpdated: Last Updated
-    link: Link to GTFS
-    name: Feed Name
-    region: Region
-    search: Search
-    stateProvince: State or Province
+    country: Country - Maa
+    lastUpdated: Last Updated - Päivitetty viimeksi
+    link: Link to GTFS - GTFS linkki
+    name: Feed Name - Syötteen nimi
+    region: Region - Alue
+    search: Search - Haku
+    stateProvince: State or Province - Maakunta tjs. 
   PublicFeedsViewer:
-    title: Catalogue
+    title: Catalogue - Hakemisto
   RegionSearch:
-    placeholder: Search for regions or agencies
+    placeholder: Etsi alueita tai toimistoja
   ResultTable:
-    affectedIds: Affected ID(s)
-    description: Description
-    line: Line
-    priority: Priority
-    problemType: Problem Type
+    affectedIds: Affected ID(s) - ID joihin vaikuttaa
+    description: Description - Kuvaus
+    line: Line - Linja
+    priority: Priority - Prioriteetti
+    problemType: Problem Type - Ongelmatyyppi
   Sidebar:
-    unknown: Unknown
+    unknown: Unknown - Tuntematon
   SnapshotItem:
-    active: Active
-    confirmDelete: This will permanently delete this snapshot. Any data saved here cannot be recovered. Are you sure you want to continue?
-    confirmLoad: 'This will override all active GTFS Editor data for this Feed Source with the data from this version. If there is unsaved work in the Editor you want to keep, you must snapshot the current Editor data first. Are you sure you want to continue?'
-    created: created
-    createFromScratch: Create GTFS from Scratch
-    date: Date
-    delete: Delete
-    download: Download
-    feed: Feed
-    load: Load for Editing
-    loadLatest: Load latest for editing
-    name: Name
-    noVersions: (No Versions)
-    noVersionsExist: No versions exist for this feed source.
-    of: of
-    publish: Publish
-    restore: Restore
-    snapshot: snapshot
-    title: Snapshots
-    version: Version
+    active: Active - Aktiivinen
+    confirmDelete: Snäppi menee, et saa takaisin. Jatketaanko?
+    confirmLoad: 'GTFS Editori yliladataan. Ota snäppi jos haluat tiedot talteen. Jatketaanko?'
+    created: created - Luotu
+    createFromScratch: Luo GTFS tyhjästä
+    date: Date - Päiväys
+    delete: Delete - Poista
+    download: Download - Imuta
+    feed: Feed - Syöte
+    load: Load for Editing - Lataa muokattavaksi
+    loadLatest: Load latest for editing - Lataa viimeisin muokattavaksi
+    name: Name - Nimi
+    noVersions: (Ei versioita)
+    noVersionsExist: Ei versioita tälle syötelähteelle.
+    of: of - of
+    publish: Publish - Julkista
+    restore: Restore - Palauta
+    snapshot: snapshot - Snäppi
+    title: Snapshots - Snäpit
+    version: Version - Versiot
   StarButton:
-    star: Star
-    unstar: Unstar
+    star: Star - Tähti!
+    unstar: Unstar - Ei tähti!
   TimetableHelpModal:
-    title: Timetable editor keyboard shortcuts
+    title: Aikatalueditorin näppäinyhdistelmät
     shortcuts:
       offset:
-        title: Offsetting times
+        title: Poikkeutusajat
         desc:
-          - Offset selected trips' stop times by adding offset time
-          - Offset selected trips' stop times by subtracting offset time
-          - Offset only active cell's time by adding offset time
-          - Offset only active cell's time by subtracting offset time
-          - Decrease offset time by 1 minute
-          - Decrease offset time by 10 minutes
-          - Increase offset time by 1 minute
-          - Increase offset time by 10 minutes
+          - FI-Offset selected trips' stop times by adding offset time
+          - FI-Offset selected trips' stop times by subtracting offset time
+          - FI-Offset only active cell's time by adding offset time
+          - FI-Offset only active cell's time by subtracting offset time
+          - FI-Decrease offset time by 1 minute
+          - FI-Decrease offset time by 10 minutes
+          - FI-Increase offset time by 1 minute
+          - FI-Increase offset time by 10 minutes
       navigate:
-        title: Navigating and selecting trips
+        title: Navigointi ja valitut reitit
         desc:
-          - Previous/next trip
-          - Previous/next column
-          - Select trip
-          - Select all trips
-          - Deselect all trips
+          - Edellinen/seuraava reitti
+          - Edellinen/seuraava sarake
+          - Valitse reitti
+          - Valitse kaikki reitit
+          - Poista valinta kaikilta reiteiltä
       modify:
-        title: Modify trips
+        title: Muokkaa reittejä
         desc:
-          - Delete selected trip(s)
-          - New trip
-          - Clone selected trip(s)
-          - Copy time value from adjacent cell (the cell immediately to the left)
-          - Copy value from cell directly above
+          - Poista valitut reit(t)it
+          - Uusi reitti
+          - Kloonaa valitut reit(t)it
+          - Kopioi aika-arvo viereisestä solusta (vasemmalla)
+          - Kopioi arvo ylläolevasta solusta
   TimezoneSelect:
-    placeholder: Select timezone...
+    placeholder: Valitse aikavyöhyke...
   UserAccount:
     account:
-      title: Account
+      title: Tili
     billing:
-      title: Billing
+      title: Laskutus
     notifications:
-      methods: Notification methods
-      subscriptions: Your subscriptions
-      title: Notifications
-      unsubscribeAll: Unsubscribe from all
-    organizationSettings: Organization settings
+      methods: Ilmioituksien tapa
+      subscriptions: Tilauksesi
+      title: Ilmoitukset
+      unsubscribeAll: Poista kaikki tilaukset
+    organizationSettings: Organisaatioasetukset
     organizations:
-      title: Organizations
-    personalSettings: Personal settings
+      title: Organisaatiot
+    personalSettings: Omat asetukset
     profile:
-      profileInformation: Profile information
-      title: Profile
-    title: My settings
+      profileInformation: Profiili
+      title: Profiili
+    title: Asetukseni
   UserAdmin:
-    noAccess: You do not have sufficient user privileges to access this area.
-    title: Administration
+    noAccess: Ei oikeuksia.
+    title: Hallinnointi
   UserHomePage:
-    createFirst: Create my first project
+    createFirst: Luo ensimmäinen projekti
     help:
-      content: 'A project is used to group GTFS feeds. For example, the feeds in a project may be in the same region or they may collectively define a planning scenario.'
-      title: What's a project?
-    new: New Project
-    noProjects: You currently do not have any projects.
+      content: 'FI-A project is used to group GTFS feeds. For example, the feeds in a project may be in the same region or they may collectively define a planning scenario.'
+      title: Mikä on projekti?
+    new: Uusi projekti
+    noProjects: Sinulla ei ole projekteja.
     table:
-      name: Project Name
-    title: Projects
+      name: Projektin nimi
+    title: Projektit
   UserList:
-    filterByOrg: Filter by org.
-    of: of
-    search: Search by username
-    showing: Showing Users
-    title: User Management
+    filterByOrg: Suodata organisaatioittain.
+    of: of -of
+    search: Hae käyttäjänimellä
+    showing: Näytä käyttäjät
+    title: Käyttäjähallinta
   UserRow:
-    appAdmin: App admin
-    cancel: Cancel
-    delete: Delete
-    deleteConfirm: Are you sure you want to permanently delete this user?
-    edit: Edit
-    orgAdmin: Org admin
-    save: Save
+    appAdmin: Sovelluksen ylläpitäjä
+    cancel: Peruuta
+    delete: Poista
+    deleteConfirm: Poistetaanko käyttäjä?
+    edit: Muokkaa
+    orgAdmin: Organisaation ylläpitäjä
+    save: Tallenna
   UserSettings:
     admin:
-      description: Application administrators have full access to all projects.
-      title: Application Admininistrator
-    application: Application Settings
-    cancel: Cancel
-    delete: Delete
-    edit: Edit
+      description: Sovelluksen ylläpitäjällä on täydet oikeudet kaikkiin projekteihin.
+      title: Sovelluksen ylläpitäjä
+    application: Sovellusasetukset
+    cancel: Peruuta
+    delete: Poista
+    edit: Muokkaa
     org:
-      admin: Organization administrator
-      billing: Billing admin
-      description: Organization administrators have full access to projects within the organization.
+      admin: Organisaation ylläpitäjä
+      billing: Laskutuksen ylläpitäjä
+      description: Organisaation ylläpitäjällä on täydet oikeudet kaikkiin projekteihin organisaatiossa.
     project:
-      admin: Admin
+      admin: Ylläpito
       custom: Custom
-      noAccess: No Access
-    save: Save
+      noAccess: Ei pääsyä
+    save: Tallenna
   VersionButtonToolbar:
-    confirmDelete: Are you sure you want to delete this version? This cannot be undone.
-    confirmLoad: 'This will override all active GTFS Editor data for this Feed Source with the data from this version. If there is unsaved work in the Editor you want to keep, you must snapshot the current Editor data first. Are you sure you want to continue?'
-    delete: Delete
-    download: Download
-    feed: Feed
-    load: Load
-    noVersionsExist: No versions exist for this feed source.
-    status: Status
-    timestamp: File Timestamp
-    version: version
+    confirmDelete: Poistetaanko versio? Et saa takaisin.
+    confirmLoad: 'Kohta menee. Ota snäpäri jos on jotain tärkeää. Jatketaanko?'
+    delete: Poista
+    download: Imuta
+    feed: Syöte
+    load: Lataa
+    noVersionsExist: Ei versioita tälle syötelähteelle.
+    status: Tila
+    timestamp: Tiedoston aikaleima
+    version: Versio
   WatchButton:
-    unwatch: Unwatch
-    watch: Watch
+    unwatch: Elä seuraa
+    watch: Seuraa
