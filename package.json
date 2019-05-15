@@ -102,7 +102,7 @@
     "turf-point": "^2.0.1",
     "turf-point-on-line": "^3.0.11",
     "turf-polygon": "^1.0.3",
-    "uuid": "^3.1.0",
+    "uuid": "^3.3.2",
     "validator": "7.0.0"
   },
   "devDependencies": {
