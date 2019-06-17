@@ -222,6 +222,10 @@ components:
       body: 'Select a zipped shapefile to display on map. Note: this is only for use as a visual aid.'
       error: Uploaded file must be a valid zip file (.zip).
       title: Upload route shapefile
+    uploadStopfile:
+      body: 'Select a zipped stopfile to display on map. Note: this is only for use as a visual aid.'
+      error: Uploaded file must be a valid zip file (.zip).
+      title: Upload route stopfile
   FeedSourceAttributes:
     lastUpdated: Updated
   FeedSourcePanel:

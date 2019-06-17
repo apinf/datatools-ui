@@ -222,6 +222,10 @@ components:
       body: 'Lataa zipattu shape tiedosto'
       error: fi-Uploaded file must be a valid zip file (.zip).
       title: Lähetä palvelimelle shapetiedosto
+    uploadStopfile:
+      body: 'Select a zipped stopfile to display on map. Note: this is only for use as a visual aid.'
+      error: Uploaded file must be a valid zip file (.zip).
+      title: Upload route stopfile
   FeedSourceAttributes:
     lastUpdated: Updated- Päivitetty
   FeedSourcePanel:
