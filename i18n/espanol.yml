@@ -220,7 +220,7 @@ components:
       title: Upload route shapefile
     uploadStopfile:
       body: 'Select a zipped stopfile to display on map. Note: this is only for use as a visual aid.'
-      error: Uploaded file must be a valid zip file (.zip).
+      error: Uploaded file must be a valid text file (.txt).
       title: Upload route stopfile
   FeedSourceAttributes:
     lastUpdated: Updated
